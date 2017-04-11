@@ -17,7 +17,7 @@ in case you not write any message the edit bin open in the screen
 `esc + :` or `q!` or `wq!` is the command to exit from the edit program bin
 
 
-## Track firts changes
+## Track first changes
 
 First time oru files are *untracked*
 To start tracking our foles we have to `commit` them
@@ -28,4 +28,11 @@ For instance if we have an index `.html` we can start tracking it by doing...
 
 ```git init
 git add index.html
-git commit -m "first commit```
+git commit -m "first commit
+```
+
+
+if you want to see changes, you can use the command `git diff` before the 
+
+
+git `log --stat` is the command to see all the logs
